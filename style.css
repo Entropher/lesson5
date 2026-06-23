@@ -4,8 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "BPG No9";
+  src:
+    url("../fonts/bpg-no9-webfont.woff2") format("woff2"),
+    url("../fonts/bpg-no9-webfont.woff") format("woff"),
+    url("../fonts/bpg-no9-webfont.ttf") format("truetype");
+}
+
 body {
-  font-family: "Noto Sans Georgian", sans-serif;
+  font-family: "BPG Glaho WEB", sans-serif;
   color: #1a1a1a;
   background: #ffffff;
   line-height: 1.5;
